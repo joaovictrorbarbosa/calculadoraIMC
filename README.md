@@ -15,7 +15,7 @@ A interface é composta por:
 
 IMC = Peso / altura²
 
-- Peso e altura foram transformados em double, para que o calculo seja preciso, da seguinte forma:
+- Peso e altura foram transformados de String, em double, para que o calculo seja preciso, da seguinte forma:
 - double peso = Double.parseDouble(campoPeso.getText().replace(',', '.'));
 - double altura = Double.parseDouble(campoAltura.getText().replace(',', '.'));
 
